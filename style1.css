@@ -1,0 +1,50 @@
+.rectangle {
+    height: auto;
+    width: 85%;
+    margin-left: 13.6%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+    
+}
+.rectangle h2 {
+    font-size: 1.2em; /* Tamaño de fuente relativo */
+}
+.wrapper {
+    display: flex;
+}
+.panel {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    width: 20%;
+}
+.content {
+    display: flex;
+}
+.content-top {
+    background-color: lightgrey;
+    align-content: center;
+}
+.content-bottom {
+    background-color: lightcyan;
+    align-content: center;
+}
+.X-MEN {
+    display: flex;
+    margin: 5% 0 0 5%;
+}
+.KungfuPanda {
+    display: flex;
+    margin: 5% 0 0 5%;
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .rectangle {
+        word-spacing: unset; /* Reiniciar el espaciado de palabras */
+        justify-content: center; /* Centrar los elementos */
+    }
+}
